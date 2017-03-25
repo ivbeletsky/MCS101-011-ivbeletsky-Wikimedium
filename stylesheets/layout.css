@@ -4,6 +4,9 @@ a{
 h1, h2, h3, p, ul, hr, blockquote {
   width: 700px;
   margin: 0 auto;
+  margin-top: 38px;
+  line-height: 28px;
+  font-size: 21px;
 }
 
 
@@ -22,4 +25,59 @@ h1 + p {
   font-size: 22px;
   line-height: 32px;
   color: rgba(0, 0, 0, 0.4);
+}
+p {margin-top: 32px;
+  line-height: 31px;
+  font-size: 21px;
+  color: #333333;
+}
+
+h2 {
+  margin-top: 43px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+h2 + p {
+  margin-top: 10px;
+ }
+
+h2 {
+  margin-top: 43px;
+}
+p{
+  margin-top: 29px;
+}
+h3{
+  margin-top: 29px;
+  font-size: 26px;
+  line-height: 33px;
+}
+h3 + p {
+margin-top: 10px;
+}
+p + blockquote {
+  margin-top: 32px;
+  line-height: 31px;
+  margin-bottom: -15px;
+  font-style: italic;
+}
+ul {
+  margin-top: 29px;
+}
+li + li {
+  margin-top: 20px;
+}
+blockquote + h2 {
+
+  margin-top: 56px;
+}
+h2 + h3 {
+
+margin-top: 36px;
+
+}
+h2 + h3 + p {
+
+  margin-top: 7px;
 }
